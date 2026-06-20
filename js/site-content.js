@@ -4,7 +4,7 @@ window.SITE_DATA = {
     "subtitle": "专注 / 创新 / 适应",
     "bio": "欢迎来到我的记录博客"
   },
-  "avatar": "assets/images/avatar-site-1781956955363-yy6tm.webp",
+  "avatar": "assets/images/avatar-site-1781958249573-kdp85.webp",
   "social": {
     "github": "https://github.com/",
     "email": "11433282920@qq.com"
@@ -13,13 +13,13 @@ window.SITE_DATA = {
     {
       "id": 1,
       "title": "校园书籍循环平台",
-      "description": "负责产品设计和循环建模，围绕校园闲置书籍流转场景，整理角色、链路和循环效率机制，形成可持续运转的校园书籍共享方案。",
+      "description": "围绕校园闲置书籍流转场景，负责产品设计与循环建模，梳理角色、链路和循环效率机制，形成可持续运转的校园书籍共享方案。",
       "tags": [
         "产品设计",
         "循环建模",
         "校园平台"
       ],
-      "image": "assets/images/project---1781957523195-xf7ld.webp",
+      "image": "assets/images/project---1781958249573-5h8rx.webp",
       "link": "#",
       "date": "2026/04-2026/06",
       "pdf": "assets/pdfs/campus-book-cycle-platform.pdf"
@@ -34,7 +34,7 @@ window.SITE_DATA = {
         "产品流程",
         "旅游攻略"
       ],
-      "image": "assets/images/project--Web-MVP-1781957523195-d4ygy.webp",
+      "image": "assets/images/project--Web-MVP-1781958249573-mjnnu.webp",
       "link": "#",
       "date": "2025/10-2025/12",
       "pdf": "assets/pdfs/travel-guide-web-mvp.pdf"
@@ -44,44 +44,44 @@ window.SITE_DATA = {
     {
       "id": 1,
       "title": "学部杯亚军",
-      "excerpt": "2024 年 10 月拿到了学部杯亚军。对我来说，这不只是一个名次，更是一段认真投入后收获结果的记录。",
+      "excerpt": "2024 年 10 月拿到了学部杯亚军。对我来说，这不只是一张证书，更是一次认真投入后收获结果的记录。",
       "tags": [
         "日常",
         "比赛",
         "记录"
       ],
       "date": "2024-10-20",
-      "image": "assets/images/post---1781957523195-ct2zc.webp",
+      "image": "assets/images/post---1781958249573-7isfz.webp",
       "content": "## 学部杯亚军\n\n2024 年 10 月，我拿到了学部杯亚军。\n\n这次比赛对我来说，不只是一个名次，更像是一段很具体的成长记录。从准备到上场，再到最后拿到结果，整个过程都让我更确定：认真投入的事情，时间会给出回应。\n\n把这张照片和这段经历留在这里，算是给那段努力一个纪念。"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "登顶武功山的摄影记录",
       "excerpt": "上周末和朋友们一起去武功山徒步，分享一些沿途拍摄的照片和心得体会。",
-      "content": "# 出发\n\n周末和俱乐部的小伙伴们一起去了武功山，天气非常好。\n\n## 沿途风景\n\n高山、草甸、蓝天白云，每一帧都是壁纸。\n\n## 登山感悟\n\n登山和编程很像，都需要一步一步来，坚持到最后才能看到最美的风景。山上有朝阳，人向高处走，山就在那里。",
       "tags": [
         "户外",
         "摄影",
         "旅行"
       ],
       "date": "2026-06-05",
-      "image": "assets/images/post---1781957523195-xsfeu.webp"
+      "content": "## 出发\n\n周末和俱乐部的小伙伴们一起去了武功山，天气非常好。\n\n## 沿途风景\n\n高山、草甸、蓝天白云，每一帧都是壁纸。\n\n## 登山感悟\n\n登山和编程很像，都需要一步一步来，坚持到最后才能看到最美的风景。山上有朝阳，人向高处走，山就在那里。",
+      "image": "assets/images/post---1781958249574-cdrpc.webp"
     },
     {
-      "id": 3,
+      "id": 6,
       "title": "绘画小记",
       "excerpt": "记录一下绘画日常",
-      "content": "画了一副刻板画风格的画，主题是我们伟大的领袖",
+      "content": "画了一次刻板画风格，主题是我们伟大的领袖",
       "tags": [
         "绘画",
         "日常",
         "生活"
       ],
       "date": "2025-10-01",
-      "image": "assets/images/post---1781957523195-6woim.webp"
+      "image": "assets/images/post---1781958249574-lzq8e.webp"
     },
     {
-      "id": 4,
+      "id": 7,
       "title": "第一次拼豆尝试",
       "excerpt": "第一尝试最近很流行的拼豆",
       "content": "第一次尝试最近很热门的拼豆很考验耐心，很有意思，完成很有成就感，拼了我最喜欢的歌手",
@@ -90,24 +90,24 @@ window.SITE_DATA = {
         "日常",
         "生活"
       ],
-      "date": "2025-11-12",
-      "image": "assets/images/post---1781957523195-xfw43.webp"
+      "date": "2025-11-22",
+      "image": "assets/images/post---1781958249574-3ymec.webp"
     },
     {
-      "id": 5,
+      "id": 8,
       "title": "漫画分镜尝试",
-      "excerpt": "模仿了喜爱的火影忍者漫画完成了一次绘画",
+      "excerpt": "模仿了喜爱的火影忍者漫画",
       "content": "临摹设计了火影忍者的漫画分镜\n一次独特的体验",
       "tags": [
         "绘画",
         "日常",
         "爱好"
       ],
-      "date": "2025-11-20",
-      "image": "assets/images/post---1781957523195-kicz1.webp"
+      "date": "2025-11-15",
+      "image": "assets/images/post---1781958249574-vvegr.webp"
     },
     {
-      "id": 6,
+      "id": 9,
       "title": "手游小成就",
       "excerpt": "王者荣耀获得吉林省第十五名称号",
       "content": "在王者荣耀手游获得一点小成绩\n全国前一百名近在咫尺",
@@ -116,8 +116,8 @@ window.SITE_DATA = {
         "日常",
         "爱好"
       ],
-      "date": "2025-04-25",
-      "image": "assets/images/post---1781957523195-dg8wo.webp"
+      "date": "2025-04-24",
+      "image": "assets/images/post---1781958249574-dxqqx.webp"
     }
   ]
 };
