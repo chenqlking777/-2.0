@@ -19,7 +19,7 @@ window.SITE_DATA = {
         "循环建模",
         "校园平台"
       ],
-      "image": "assets/images/project---1781954648003-nfbij.webp",
+      "image": "assets/images/project---1781957316412-kuudk.webp",
       "link": "#",
       "date": "2026/04-2026/06",
       "pdf": "assets/pdfs/campus-book-cycle-platform.pdf"
@@ -34,7 +34,7 @@ window.SITE_DATA = {
         "产品流程",
         "旅游攻略"
       ],
-      "image": "assets/images/project--Web-MVP-1781950834265-x8zd0.webp",
+      "image": "assets/images/project--Web-MVP-1781957316412-ie3yw.webp",
       "link": "#",
       "date": "2025/10-2025/12",
       "pdf": "assets/pdfs/travel-guide-web-mvp.pdf"
@@ -51,7 +51,7 @@ window.SITE_DATA = {
         "记录"
       ],
       "date": "2024-10-20",
-      "image": "assets/images/post---1781950603197-gt94y.webp",
+      "image": "assets/images/post---1781957316412-iusl3.webp",
       "content": "## 学部杯亚军\n\n2024 年 10 月，我拿到了学部杯亚军。\n\n这次比赛对我来说，不只是一个名次，更像是一段很具体的成长记录。从准备到上场，再到最后拿到结果，整个过程都让我更确定：认真投入的事情，时间会给出回应。\n\n把这张照片和这段经历留在这里，算是给那段努力一个纪念。"
     },
     {
@@ -65,7 +65,7 @@ window.SITE_DATA = {
         "旅行"
       ],
       "date": "2026-06-05",
-      "image": "assets/images/post---1781950603197-add6q.webp"
+      "image": "assets/images/post---1781957316412-4emc2.webp"
     },
     {
       "id": 3,
@@ -78,16 +78,20 @@ window.SITE_DATA = {
         "生活"
       ],
       "date": "2025-10-01",
-      "image": "assets/images/post---1781950603197-8s00i.webp"
+      "image": "assets/images/post---1781957316412-gvo91.webp"
     },
     {
       "id": 4,
       "title": "第一次拼豆尝试",
       "excerpt": "第一尝试最近很流行的拼豆",
       "content": "第一次尝试最近很热门的拼豆很考验耐心，很有意思，完成很有成就感，拼了我最喜欢的歌手",
-      "tags": [],
+      "tags": [
+        "创造",
+        "日常",
+        "生活"
+      ],
       "date": "2025-11-12",
-      "image": "assets/images/post---1781950603197-prw36.webp"
+      "image": "assets/images/post---1781957316412-rgrak.webp"
     },
     {
       "id": 5,
@@ -100,7 +104,7 @@ window.SITE_DATA = {
         "爱好"
       ],
       "date": "2025-11-20",
-      "image": "assets/images/post---1781950603197-slmw7.webp"
+      "image": "assets/images/post---1781957316412-2ft5w.webp"
     },
     {
       "id": 6,
@@ -113,7 +117,7 @@ window.SITE_DATA = {
         "爱好"
       ],
       "date": "2025-04-25",
-      "image": "assets/images/post---1781950603197-ghrkp.webp"
+      "image": "assets/images/post---1781957316412-epyxo.webp"
     }
   ]
 };
