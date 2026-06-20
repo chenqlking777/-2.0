@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理后台 - qiling</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <style>
+    :root { --space-sm:8px; --space-md:16px; --space-lg:24px; --space-xl:32px; --space-2xl:48px; --space-3xl:64px; }
+  </style>
+</head>
+<body>
+  <div class="admin-gate" id="admin-gate">
+    <div class="admin-gate-card">
+      <div class="admin-gate-dot"></div>
+      <h1>qiling Admin</h1>
+      <p>输入后台密码后进入管理面板</p>
+      <form id="admin-login-form" class="admin-gate-form">
+        <input type="password" id="admin-password-input" placeholder="输入后台密码" autocomplete="current-password">
+        <button type="submit">进入后台</button>
+      </form>
+      <div class="admin-gate-hint">后台入口已从前台移除，请直接访问 `/admin/`。</div>
+    </div>
+  </div>
+  <div class="admin-layout">
+    <!-- Sidebar -->
+    <aside class="admin-sidebar">
+      <div class="admin-logo">
+        <span class="admin-logo-dot"></span>
+        qiling Admin
+      </div>
+      <nav class="admin-nav">
+        <button class="admin-nav-item active" data-tab="dashboard">
+          <i class="fas fa-chart-simple"></i> 概览
+        </button>
+        <button class="admin-nav-item" data-tab="projects">
+          <i class="fas fa-folder"></i> 项目管理
+        </button>
+        <button class="admin-nav-item" data-tab="posts">
+          <i class="fas fa-file-lines"></i> 文章管理
+        </button>
+        <button class="admin-nav-item" data-tab="settings">
+          <i class="fas fa-gear"></i> 设置
+        </button>
+      </nav>
+      <div style="margin-top:auto;padding-top:var(--space-xl);">
+        <a href="../index.html" class="admin-nav-item" style="color:var(--admin-text-secondary);">
+          <i class="fas fa-arrow-left"></i> 返回网站
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+      <!-- Dashboard Tab -->
+      <div id="tab-dashboard" class="admin-tab-content active">
+        <div class="admin-header">
+          <h1>仪表盘</h1>
+          <p>网站内容概览</p>
+        </div>
+        <div id="admin-stats" class="admin-stats"></div>
+        <div class="admin-card">
+          <div class="admin-card-header">
+            <h3>快速指南</h3>
+          </div>
+          <div style="font-size:0.85rem;color:var(--admin-text-secondary);line-height:1.8;">
+            <p>📁 <strong>项目管理</strong> — 添加/编辑/删除你的项目作品</p>
+            <p>📝 <strong>文章管理</strong> — 发布博客文章，支持 Markdown 格式</p>
+            <p>⚙️ <strong>设置</strong> — 修改网站名称、个人简介、社交链接</p>
+              <p style="margin-top:var(--space-md);color:var(--admin-text-secondary);opacity:0.7;">
+              💡 提示：内容先保存到浏览器本地缓存；如果图片太大导致缓存超限，仍可继续导出 <code>site-content.js</code>。
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Tab -->
+      <div id="tab-projects" class="admin-tab-content">
+        <div class="admin-header">
+          <h1>项目管理</h1>
+          <p>管理你的作品项目</p>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-header">
+            <h3>所有项目</h3>
+            <button class="admin-btn admin-btn-primary" onclick="window.renderProjectForm()">
+              <i class="fas fa-plus"></i> 添加项目
+            </button>
+          </div>
+          <div id="projects-list"></div>
+        </div>
+        <div id="project-form-container"></div>
+      </div>
+
+      <!-- Posts Tab -->
+      <div id="tab-posts" class="admin-tab-content">
+        <div class="admin-header">
+          <h1>文章管理</h1>
+          <p>发布和管理博客文章</p>
+        </div>
+        <div class="admin-card">
+          <div class="admin-card-header">
+            <h3>所有文章</h3>
+            <button class="admin-btn admin-btn-primary" onclick="window.renderPostForm()">
+              <i class="fas fa-plus"></i> 写文章
+            </button>
+          </div>
+          <div id="posts-list"></div>
+        </div>
+        <div id="post-form-container"></div>
+      </div>
+
+      <!-- Settings Tab -->
+      <div id="tab-settings" class="admin-tab-content">
+        <div class="admin-header">
+          <h1>设置</h1>
+          <p>管理网站配置</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/site-content.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
