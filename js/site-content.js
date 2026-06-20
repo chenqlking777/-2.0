@@ -4,7 +4,7 @@ window.SITE_DATA = {
     "subtitle": "专注 / 创新 / 适应",
     "bio": "欢迎来到我的记录博客"
   },
-  "avatar": "assets/images/avatar-site-1781958249573-kdp85.webp",
+  "avatar": "assets/images/avatar-site-1781958387404-j2vlf.webp",
   "social": {
     "github": "https://github.com/",
     "email": "11433282920@qq.com"
@@ -19,7 +19,7 @@ window.SITE_DATA = {
         "循环建模",
         "校园平台"
       ],
-      "image": "assets/images/project---1781958249573-5h8rx.webp",
+      "image": "assets/images/project---1781958387404-ew87d.webp",
       "link": "#",
       "date": "2026/04-2026/06",
       "pdf": "assets/pdfs/campus-book-cycle-platform.pdf"
@@ -34,7 +34,7 @@ window.SITE_DATA = {
         "产品流程",
         "旅游攻略"
       ],
-      "image": "assets/images/project--Web-MVP-1781958249573-mjnnu.webp",
+      "image": "assets/images/project--Web-MVP-1781958387404-7pakx.webp",
       "link": "#",
       "date": "2025/10-2025/12",
       "pdf": "assets/pdfs/travel-guide-web-mvp.pdf"
@@ -51,7 +51,7 @@ window.SITE_DATA = {
         "记录"
       ],
       "date": "2024-10-20",
-      "image": "assets/images/post---1781958249573-7isfz.webp",
+      "image": "assets/images/post---1781958387404-m9c5w.webp",
       "content": "## 学部杯亚军\n\n2024 年 10 月，我拿到了学部杯亚军。\n\n这次比赛对我来说，不只是一个名次，更像是一段很具体的成长记录。从准备到上场，再到最后拿到结果，整个过程都让我更确定：认真投入的事情，时间会给出回应。\n\n把这张照片和这段经历留在这里，算是给那段努力一个纪念。"
     },
     {
@@ -65,7 +65,7 @@ window.SITE_DATA = {
       ],
       "date": "2026-06-05",
       "content": "## 出发\n\n周末和俱乐部的小伙伴们一起去了武功山，天气非常好。\n\n## 沿途风景\n\n高山、草甸、蓝天白云，每一帧都是壁纸。\n\n## 登山感悟\n\n登山和编程很像，都需要一步一步来，坚持到最后才能看到最美的风景。山上有朝阳，人向高处走，山就在那里。",
-      "image": "assets/images/post---1781958249574-cdrpc.webp"
+      "image": "assets/images/post---1781958387404-aee5f.webp"
     },
     {
       "id": 6,
@@ -78,7 +78,7 @@ window.SITE_DATA = {
         "生活"
       ],
       "date": "2025-10-01",
-      "image": "assets/images/post---1781958249574-lzq8e.webp"
+      "image": "assets/images/post---1781958387404-h76cd.webp"
     },
     {
       "id": 7,
@@ -91,7 +91,7 @@ window.SITE_DATA = {
         "生活"
       ],
       "date": "2025-11-22",
-      "image": "assets/images/post---1781958249574-3ymec.webp"
+      "image": "assets/images/post---1781958387404-5ki0v.webp"
     },
     {
       "id": 8,
@@ -104,7 +104,7 @@ window.SITE_DATA = {
         "爱好"
       ],
       "date": "2025-11-15",
-      "image": "assets/images/post---1781958249574-vvegr.webp"
+      "image": "assets/images/post---1781958387404-1nxhq.webp"
     },
     {
       "id": 9,
@@ -117,7 +117,7 @@ window.SITE_DATA = {
         "爱好"
       ],
       "date": "2025-04-24",
-      "image": "assets/images/post---1781958249574-dxqqx.webp"
+      "image": "assets/images/post---1781958387404-4r3p5.webp"
     }
   ]
 };
