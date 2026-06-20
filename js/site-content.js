@@ -4,7 +4,7 @@ window.SITE_DATA = {
     "subtitle": "专注 / 创新 / 适应",
     "bio": "欢迎来到我的记录博客"
   },
-  "avatar": "assets/images/avatar-site-1781954772059-vp8f2.webp",
+  "avatar": "assets/images/avatar-site-1781955099231-25d1b.webp",
   "social": {
     "github": "https://github.com/",
     "email": "11433282920@qq.com"
